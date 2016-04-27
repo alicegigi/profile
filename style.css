@@ -5,10 +5,11 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
+  text-align: justify;
 }
 
 h1 {
-  color: #DD5555;
+  color: #FF5A5F;
   font-size: 30px;
   font-weight: 500;
 }
@@ -28,6 +29,7 @@ table {
   line-height: 1.6em;
   white-space: normal;
   border-collapse: separate;
+  text-align: justify;
 }
 
 p {
@@ -36,6 +38,7 @@ p {
   font-size: 15px;
   line-height: 1.6em;
   color: #7d7d7d;
+  text-align: justify;
 }
 
 a {
@@ -98,5 +101,5 @@ a {
 }
 
 a:hover {
-  color: #DD5555;
+  color: ##FF5A5F;
 }
