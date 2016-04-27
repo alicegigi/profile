@@ -92,7 +92,7 @@ a {
 }
 
 .container {
-  width: 500px;
+  max-width: 500px;
   margin: 30px auto;
 }
 
@@ -102,4 +102,28 @@ a {
 
 a:hover {
   color: #FF5A5F;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 650px;
+  }
+
+}
+
+@media (min-width: 892px) {
+  .container {
+    width: 850px;
+  }
+
+}
+
+link:hover {
+  background-image:
 }
